@@ -1,0 +1,13 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class App(ex45)
+{
+    {static} +main(String[] args)
+    {static} +Prompt(String toPrint)
+    {static} +OutputToFile(List<String> words, FileWriter fileWriter)
+    {static} +SeparateWords(List<String> lines, File outputFile)
+    {static} +ScanLinesToList(File file)
+}
+
+@enduml

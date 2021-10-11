@@ -1,0 +1,14 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class main(ex44)
+{
+    {static} +mainString[] args)
+    {static} +FindProductDataLoop(JsonArray jsonArray)
+    {static} +SearchForNameInJsonArray(JsonArray jsonArray, String input, AtomicReference<JsonObject> obj)
+    {static} +PrintFoundOrNotFound(AtomicReference<JsonObject> obj, boolean found)
+    {static} +Prompt(String toPrint)
+    {static} +ParseJsonToProductArray()
+}
+
+@enduml

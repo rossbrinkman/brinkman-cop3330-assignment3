@@ -1,0 +1,11 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class App(ex41)
+{
+    {static} +main(String[] args)
+    {static} +ReadInput()
+    {static} +OutputToFile(List<String> sortedList)
+}
+
+@enduml

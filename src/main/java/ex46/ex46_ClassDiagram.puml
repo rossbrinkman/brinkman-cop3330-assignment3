@@ -1,0 +1,13 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class App(ex46)
+{
+    {static} +main(String[] args)
+    {static} +FindAllWordsInFile(File file)
+    {static} +ConvertHashmapToStringListWithValues(HashMap<String, Integer> map)
+    {static} +SortListByValue(HashMap<String, Integer> hashMap)
+    {static} +PrintList(List<String> list)
+}
+
+@enduml
