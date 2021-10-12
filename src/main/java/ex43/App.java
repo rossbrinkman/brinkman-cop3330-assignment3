@@ -22,6 +22,7 @@ public class App {
         css = Prompt("Do you want a folder for CSS? ");
 
         //create directory with new site name as folder name
+        CreateNewDirectory(String.format("%s", folderPath));
         CreateNewDirectory(String.format("%s/%s", folderPath, siteName));
         //create new index.html file within new directory
         CreateFileWithInput(
